@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="./main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starter pack for ES6 Proxy</title>
+</head>
+<body>
+    <div id="container">
+    <div id="set-date">
+        <label for="date-input">Select Date</label>
+        <input type="date" id="date-input" name="date-input" onchange="takeInput(this.value)">
+        <button onclick="getImage()">Get Image</button>
+    </div>
+    <div id="images"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
